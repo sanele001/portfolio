@@ -1,9 +1,6 @@
 import styles from "../styles/work.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import ngubane from "../public/ss.png";
-import sibu from "../public/mock.png";
-import app from "../public/app.png";
 
 function Work() {
   return (
@@ -17,7 +14,7 @@ function Work() {
             <div>
               <a href="#">
                 <Image
-                  src={ngubane}
+                  src="https://res.cloudinary.com/dgrmjcqon/image/upload/v1663266499/ss_niwn3r.png"
                   alt="Picture of the author"
                   width={500}
                   height={500}
@@ -38,7 +35,7 @@ function Work() {
           <div className={styles.listItem}>
             <div>
               <Image
-                src={sibu}
+                src="https://res.cloudinary.com/dgrmjcqon/image/upload/v1663266486/mock_uxcb1i.png"
                 alt="Picture of the author"
                 width={500}
                 height={500}
@@ -56,7 +53,7 @@ function Work() {
           <div className={styles.listItem}>
             <div>
               <Image
-                src={app}
+                src="https://res.cloudinary.com/dgrmjcqon/image/upload/v1663266463/app_zzj6lp.png"
                 alt="Picture of the author"
                 width={500}
                 height={500}
