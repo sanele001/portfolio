@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Wire+One&display=swap");
+.container {
+  padding: 1rem;
+  height: 100vh;
+  width: 100vw;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
+.hello {
+  font-size: 10rem;
+  letter-spacing: 0.5rem;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.hello span {
+  color: #ff5f58;
+}
+
+.navsection {
+  display: flex;
+}
+
+.leftHolder {
+  z-index: 1;
+  padding-left: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .leftHolder {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.rightHolder {
+  height: 90%;
+  width: 50%;
+
+  background-image: url("../public/tree3.png");
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 0;
+  left: 40%;
+}
+
+@media only screen and (max-width: 800px) {
+  .rightHolder {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.logo {
+  font-family: wire one;
+  color: grey;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navlist {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  font-family: wire one;
+  color: grey;
+}
+.navlist li {
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+.intro {
+  font-size: 4rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5rem;
+}
+.intro span {
+  color: #ff5f58;
+}
+
+.navlist a {
+  background-image: linear-gradient(
+    to right,
+    #5040af,
+    #54b3d6 50%,
+    rgb(58, 57, 57) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.navlist a:before {
+  content: "";
+  background: #d6546a;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navlist a:hover {
+  background-position: 0;
+}
+
+.navlist a:hover::before {
+  width: 100%;
+}

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Wire+One&display=swap");
+
+.listItem {
+  position: relative;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.desc {
+  position: absolute;
+  color: white;
+  top: 30vh;
+  left: 40vw;
+  width: 40vw;
+  background: darkslategray;
+  padding: 10px;
+
+  border-radius: 10px;
+  font-family: wire one;
+  font-size: 2rem;
+}
+
+.desc p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.home {
+  font-size: 2rem;
+  color: grey;
+  margin-left: 2.5rem;
+  font-family: wire one;
+  cursor: pointer;
+}
