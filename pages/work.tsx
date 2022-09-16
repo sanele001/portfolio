@@ -12,7 +12,11 @@ function Work() {
         <div>
           <div className={styles.listItem}>
             <div>
-              <a href="#">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.mlonzi.mlonziinc&gl=ZA"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Image
                   src="https://res.cloudinary.com/dgrmjcqon/image/upload/v1663266499/ss_niwn3r.png"
                   alt="Picture of the author"
@@ -34,12 +38,18 @@ function Work() {
         <div>
           <div className={styles.listItem}>
             <div>
-              <Image
-                src="https://res.cloudinary.com/dgrmjcqon/image/upload/v1663266486/mock_uxcb1i.png"
-                alt="Picture of the author"
-                width={500}
-                height={500}
-              />
+              <a
+                href="https://play.google.com/store/apps/details?id=com.drngubaneapp.drngubane&gl=ZA"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  src="https://res.cloudinary.com/dgrmjcqon/image/upload/v1663266486/mock_uxcb1i.png"
+                  alt="Picture of the author"
+                  width={500}
+                  height={500}
+                />
+              </a>
             </div>
             <div className={styles.desc}>
               <p>

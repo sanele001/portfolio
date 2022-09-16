@@ -11,36 +11,39 @@ function About() {
           <h3 className={styles.name}>
             SANELE<span>.</span>
           </h3>
-          <Image
-            src="https://img.icons8.com/color/48/000000/javascript--v1.png"
-            alt="javascript icon"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="https://img.icons8.com/fluency/48/000000/typescript.png"
-            alt="javascript icon"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="https://img.icons8.com/officel/80/000000/react.png"
-            alt="javascript icon"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="https://img.icons8.com/color/96/ffff/nextjs.png"
-            alt="javascript icon"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="https://img.icons8.com/color/96/000000/mysql-logo.png"
-            alt="javascript icon"
-            width={50}
-            height={50}
-          />
+          <div>
+            <Image
+              src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+              alt="javascript icon"
+              width={50}
+              height={50}
+            />
+            <Image
+              src="https://img.icons8.com/fluency/48/000000/typescript.png"
+              alt="javascript icon"
+              width={50}
+              height={50}
+            />
+            <Image
+              src="https://img.icons8.com/officel/80/000000/react.png"
+              alt="javascript icon"
+              width={50}
+              height={50}
+            />
+            <Image
+              src="https://img.icons8.com/color/96/ffff/nextjs.png"
+              alt="javascript icon"
+              width={50}
+              height={50}
+            />
+            <Image
+              src="https://img.icons8.com/color/96/000000/mysql-logo.png"
+              alt="javascript icon"
+              width={50}
+              height={50}
+            />
+          </div>
+          <h3 className={styles.qoute}>UTHANDO LOBUCIKO NOBU CHWEPHESHE</h3>
         </div>
         <div className={styles.textholder}>
           <Link href="/">

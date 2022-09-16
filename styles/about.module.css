@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Wire+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 .main {
   display: flex;
   justify-content: space-between;
   padding-left: 2rem;
+  max-width: 1200px;
 }
 
 .textholder {
@@ -22,11 +24,18 @@
 
 .picholder {
   height: 100vh;
-  width: 40vw;
+
   background-image: url("../public/tree3.png");
   background-position: center;
   background-size: 90%;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.qoute {
+  font-family: dancing script;
+  color: lightgray;
 }
 
 .name {
