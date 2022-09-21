@@ -5,7 +5,7 @@
   max-width: 1200px;
   color: aliceblue;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
   align-items: center;
 }
@@ -74,6 +74,7 @@
 .navlist li {
   font-size: 40px;
   margin-bottom: 2rem;
+  color: lightgray;
 }
 
 .intro {
